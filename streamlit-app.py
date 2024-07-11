@@ -6,7 +6,7 @@ import cvxpy as cp
 
 pd.set_option("display.precision", 2)
 
-st.title("Otimização da Mistura")
+st.title("Otimização da mistura de concreto")
 
 st.markdown("## Dados")
 
@@ -41,7 +41,7 @@ def plot_components(diam, comp, names):
 with st.expander("Pré-visualize os dados"):
     st.dataframe(df.head().style.format(precision=2))
 
-st.markdown("## Optimização")
+st.markdown("## Otimização")
 
 
 def psd(d, q=0.3, d_min=3.4e-7, d_max=1e-3):
