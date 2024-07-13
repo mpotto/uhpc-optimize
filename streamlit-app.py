@@ -122,10 +122,8 @@ with st.form("optimize"):
 
     if submitted:
         fig, ax = plt.subplots(1, 1)
-        ax.plot(diam, y,  "-", lw=1, color="k", label="Curva ótima")
-        ax.plot(
-            diam, comp @ vol_prop.value, "--", lw=2, color="orangered", label="Solução"
-        )
+        ax.plot(diam_test, y_test, "-", lw=1, color="k", label="Curva ótima")
+        ax.plot(diam, comp @ vol_prop.value, "--", lw=2, color="crimson", label="Solução")
         ax.legend(bbox_to_anchor=(1.01, 0.99), frameon=False)
         ax.set_xlabel("Diâmetro (m)")
         ax.set_ylabel("Passante")
