@@ -94,6 +94,9 @@ st.markdown("### Execute a otimização")
 
 y = psd(diam, q=q)
 
+diam_test = np.logspace(np.log10(diam.min()), np.log10(diam.max()), 10**3)
+y_test = psd(diam_test, q=q)
+
 with st.form("optimize"):
 
     n_comp = comp.shape[1]
