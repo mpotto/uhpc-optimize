@@ -103,7 +103,7 @@ with st.form("optimize"):
     A = np.ones((1, n_comp))
 
     # Configure constraints using cols
-    constraints = [A @ vol_prop == 1, vol_prop >= 0, vol_prop[1] <= 0.1]
+    constraints = [A @ vol_prop == 1, vol_prop >= 0]
     for i, var in enumerate(variables):
         index = names.index(var) - 1
 
