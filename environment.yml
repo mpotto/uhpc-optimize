@@ -235,7 +235,7 @@ dependencies:
   - soupsieve=2.5=py39h06a4308_0
   - sqlite=3.45.3=h5eee18b_0
   - stack_data=0.2.0=pyhd3eb1b0_0
-  - streamlit=1.32.0=py39h06a4308_0
+  - streamlit=1.37.0=pyhd8ed1ab_0
   - tbb=2021.8.0=hdb19cb5_0
   - tenacity=8.2.3=py39h06a4308_0
   - terminado=0.17.1=py39h06a4308_0
@@ -249,9 +249,11 @@ dependencies:
   - typing-extensions=4.11.0=py39h06a4308_0
   - typing_extensions=4.11.0=py39h06a4308_0
   - tzdata=2024a=h04d1e81_0
+  - tzlocal=5.2=py39h06a4308_0
   - unicodedata2=15.1.0=py39h5eee18b_0
   - urllib3=2.2.2=py39h06a4308_0
   - utf8proc=2.6.1=h5eee18b_1
+  - validators=0.18.2=pyhd3eb1b0_0
   - watchdog=4.0.1=py39h06a4308_0
   - wcwidth=0.2.5=pyhd3eb1b0_0
   - webencodings=0.5.1=py39h06a4308_1
